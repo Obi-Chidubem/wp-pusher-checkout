@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/anek-gujarati"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Before anything else, keep in mind that i had to put most of the css inline because of how diverse the design was. there is hardly any
+    repetition, so each member had to get its own attribute (And changing back and forth between the css file and here is counterintuitive) -->
+
+    <!-- P.S. flex display is God's gift to humanity. -->
+
+    <div id="main">
+      <nav id="navigator">
+        <img id="logo" src="wppusher-logo copy.png" alt="wp-pusher-logo" />
+        <!-- The below contains teh rightsided links -->
+        <div id="links">
+          <a
+            href="./"
+            style="
+              font-family: 'Anek Gujarati', sans-serif;
+              text-decoration: none;
+              color: hsla(211, 35%, 17%, 1);
+              font-size: 14px;
+              text-align: center;
+              width: 65px;
+              height: 17px;
+            "
+            >Download</a
+          >
+          <a
+            href="./"
+            style="
+              font-family: 'Anek Gujarati', sans-serif;
+              text-decoration: none;
+              color: hsla(211, 35%, 17%, 1);
+              font-size: 14px;
+              text-align: center;
+              width: 71px;
+              height: 17px;
+              margin-left: 30px;
+            "
+            >Learn more</a
+          >
+          <a
+            href="./"
+            style="
+              font-family: 'Anek Gujarati', sans-serif;
+              text-decoration: none;
+              color: hsla(211, 35%, 17%, 1);
+              font-size: 14px;
+              text-align: center;
+              width: 43px;
+              height: 17px;
+              margin-left: 40px;
+            "
+            >Pricing</a
+          >
+          <a
+            href="./"
+            style="
+              font-family: 'Anek Gujarati', sans-serif;
+              text-decoration: none;
+              color: hsla(211, 35%, 17%, 1);
+              font-size: 14px;
+              text-align: center;
+              width: 30px;
+              height: 17px;
+              margin-left: 44px;
+            "
+            >Help</a
+          >
+          <a
+            href="./"
+            id="Account-border"
+            style="
+              font-family: 'Anek Gujarati', sans-serif;
+              text-decoration: none;
+              color: hsla(211, 35%, 17%, 1);
+              font-size: 14px;
+              text-align: center;
+              width: 52px;
+              height: 17px;
+              margin-left: 44px;
+            "
+            >Account</a
+          >
+        </div>
+      </nav>
+      <hr
+        style="
+          height: 2px;
+          width: 1358px;
+          margin-bottom: 0px;
+          margin-top: -2px;
+          border-left: 0px;
+        "
+      />
+      <!--This contains the main body of the page-->
+      <div id="body">
+        <!-- Left side of the body -->
+        <div id="left">
+          <p
+            style="
+              width: 161px;
+              height: 54px;
+              font-size: 30px;
+              font-family: sans-serif;
+              font-weight: 400;
+              margin-top: 41px;
+              margin-left: 48px;
+              margin-bottom: 0px;
+            "
+          >
+            Checkout
+          </p>
+          <!-- <hr
+            style="
+              height: 2px;
+              width: 580px;
+              margin-top: 24px;
+              border-left: 0px;
+            "
+          /> -->
+          <!-- The below part is the form below the checkout. -->
+          <section
+            style="
+              width: 531px;
+              height: 221px;
+              padding-left: 49px;
+              margin-top: 40px;
+            "
+          >
+            <div style="display: flex; flex-wrap: wrap">
+              <img
+                src="./1.png"
+                alt="the-1-above-all"
+                style="width: 30px; height: 30px"
+              />
+              <p
+                style="
+                  width: 220px;
+                  height: 32px;
+                  font-size: 18px;
+                  margin-top: 3px;
+                  margin-bottom: 0px;
+                  padding-left: 10px;
+                "
+              >
+                Your Basic Information
+              </p>
+            </div>
+            <!--The form itself  -->
+            <form
+              action=""
+              style="
+                margin-top: 9px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                width: 531px;
+                height: 163px;
+                padding-bottom: 58px;
+              "
+            >
+              <div>
+                <label
+                  for="firstname"
+                  style="
+                    width: 187px;
+                    height: 17px;
+                    color: hsla(211, 35%, 17%, 1);
+                    font-size: 14px;
+                  "
+                  >First Name</label
+                >
+                <br />
+                <input
+                  type="text"
+                  name="firstname"
+                  placeholder="Jane"
+                  autofocus
+                  style="
+                    margin-top: 7px;
+                    width: 215px;
+                    height: 36px;
+                    padding: 0px 0px 0px 12px;
+                    border: 1px;
+                    background: hsla(216, 16%, 94%, 1);
+                  "
+                />
+              </div>
+
+              <div>
+                <label
+                  for="lastname"
+                  style="
+                    width: 187px;
+                    height: 17px;
+                    color: hsla(211, 35%, 17%, 1);
+                    font-size: 14px;
+                  "
+                  >Last Name</label
+                >
+                <br />
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Doe"
+                  style="
+                    margin-top: 7px;
+                    width: 215px;
+                    height: 36px;
+                    padding: 0px 0px 0px 12px;
+                    border: 1px;
+                    background: hsla(216, 16%, 94%, 1);
+                  "
+                />
+              </div>
+
+              <div>
+                <label
+                  for="email"
+                  style="
+                    width: 187px;
+                    height: 17px;
+                    color: hsla(211, 35%, 17%, 1);
+                    font-size: 14px;
+                    /* margin-top: px; */
+                  "
+                  >E-mail</label
+                >
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="janedoe@example.com"
+                  style="
+                    margin-top: 7px;
+                    width: 370px;
+                    height: 36px;
+                    padding: 0px 0px 0px 12px;
+                    border: 1px;
+                    background: hsla(216, 16%, 94%, 1);
+                  "
+                />
+              </div>
+            </form>
+          </section>
+
+          <!-- The payment form -->
+          <section
+            style="
+              width: 531px;
+              padding-left: 49px;
+              height: 154px;
+              margin-top: 33px;
+            "
+          >
+            <div style="display: flex; flex-wrap: wrap">
+              <img
+                src="./2.png"
+                alt="the-1-above-all"
+                style="width: 30px; height: 30px; margin-top: 21px"
+              />
+
+              <p
+                style="
+                  width: 220px;
+                  height: 32px;
+                  font-size: 18px;
+                  margin-top: 24px;
+                  margin-bottom: 0px;
+                  padding-left: 10px;
+                "
+              >
+                Your Payment Information
+              </p>
+            </div>
+
+            <form
+              action=""
+              style="
+                margin-top: 9px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                width: 531px;
+                height: 60px;
+              "
+            >
+              <div>
+                <label
+                  for="creditcard"
+                  style="
+                    width: 187px;
+                    height: 17px;
+                    color: hsla(211, 35%, 17%, 1);
+                    font-size: 14px;
+                  "
+                  >Credit Card</label
+                >
+                <br />
+
+                <input
+                  type="number"
+                  name="creditcard"
+                  placeholder="Card Number                                                                                MM/YY    CVC"
+                  autofocus
+                  style="
+                    margin-top: 7px;
+                    width: 483px;
+                    height: 36px;
+                    padding: 0px 0px 0px 12px;
+                    border: 1px;
+                    background: hsla(216, 16%, 94%, 1);
+                  "
+                />
+              </div>
+            </form>
+          </section>
+
+          <section style="width: 531px; padding-left: 49px; margin-top: 39px">
+            <!--The button for submission  -->
+            <button
+              style="
+                border: 0px;
+                width: 495px;
+                height: 52px;
+                color: white;
+                font-size: 18px;
+                background: hsla(173, 96%, 28%, 1);
+              "
+            >
+              Buy WP Pusher
+            </button>
+
+            <footer
+              style="
+                display: flex;
+                justify-content: center;
+                margin-top: 33px;
+                font-size: 14px;
+                font-family: sans-serif;
+                gap: 10px;
+              "
+            >
+              <img src="Mask.png" alt="the-question-mark-of-destiny" />
+              <span style="margin-top: 2px">
+                <b>Need any help? </b> Don't hesitate to
+                <a href="./" style="color: black">contact support</a>
+              </span>
+            </footer>
+
+            <div style="display: flex; justify-content: center">
+              <img
+                src="powered_by_stripe.png"
+                alt="powered-by-stripe-power!"
+                style="margin-top: 31px; margin-left: 508"
+              />
+            </div>
+          </section>
+        </div>
+
+        <!-- The sidebar -->
+        <div
+          id="right"
+          style="color: hsla(0, 0%, 100%, 1); height: 753px; padding-top: 42px"
+        >
+          <div style="margin-left: 44px">
+            <span
+              style="
+                font-size: 20px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+              "
+            >
+              Freelancer
+            </span>
+            <p
+              style="
+                width: 140px;
+                height: 72px;
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                margin-bottom: 3px;
+                margin-top: 5px;
+              "
+            >
+              <span
+                style="
+                  font-size: 24px;
+                  font-weight: 700;
+                  font-family: 'Lato', sans-serif;
+                  padding-bottom: 20px;
+                "
+              >
+                $
+              </span>
+              <span
+                style="
+                  font-size: 60px;
+                  font-weight: 300;
+                  font-family: 'Lato', sans-serif;
+                "
+              >
+                99
+              </span>
+              <span
+                style="
+                  font-size: 18px;
+                  font-weight: 700;
+                  font-family: 'Lato', sans-serif;
+                  margin-top: 30px;
+                "
+                >/</span
+              >
+              <span
+                style="
+                  font-size: 12px;
+                  font-weight: 600;
+                  font-family: 'Lato', sans-serif;
+                  margin-top: 30px;
+                "
+                >year</span
+              >
+            </p>
+            <div
+              style="
+                width: 160px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+              "
+            >
+              <em>Automatically renews after 1 year</em>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                margin-top: 36px;
+                gap: 16px;
+                font-family: 'Lato', sans-serif;
+              "
+            >
+              <span style="display: flex; gap: 11px">
+                <img src="Combined Shape.png" alt="checkmark" />
+                <span>Use on <b>5</b> client sites</span>
+              </span>
+              <span style="display: flex; gap: 11px">
+                <img src="Combined Shape.png" alt="checkmark" />
+                <span>Private repositories</span>
+              </span>
+              <span style="display: flex; gap: 11px">
+                <img src="Combined Shape.png" alt="checkmark" />
+                <span>Email support</span>
+              </span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                margin-top: 38px;
+                width: 186px;
+                height: 50px;
+                gap: 12px;
+                font-family: 'Lato', sans-serif;
+              "
+            >
+              <span>Need <b>20</b> client sites?</span>
+              <span
+                ><a href="./" style="color: hsla(0, 0%, 100%, 1)"
+                  >Switch to the Agency Plan</a
+                ></span
+              >
+            </div>
+            <div style="width: 229px; margin-top: 41px">
+              <hr
+                style="
+                  color: hsla(204, 33%, 97%, 1);
+                  height: 2px;
+                  border-left: 0px;
+                  border-top: 0px;
+                  border-right: 0px;
+                  margin-bottom: 43px;
+                "
+              />
+              <div
+                style="
+                  width: 215px;
+                  height: 96px;
+                  font-style: italic;
+                  font-size: 18px;
+                  font-family: 'Roboto thin', sans-serif;
+                "
+              >
+                <span
+                  >FTP is horrible to deal with.
+                  <strong>WP Pusher</strong> solves that issue, and the customer
+                  support is awesome!</span
+                >
+              </div>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-wrap: wrap;
+                width: 215px;
+                align-items: center;
+                gap: 10px;
+                margin-top: 17px;
+              "
+            >
+              <img
+                src="Bitmap.png"
+                alt="kirk's-beard"
+                style="width: 40px; height: 40px; border-radius: 100%"
+              />
+              <p>Kirk Beard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer"></footer>
+    </div>
+  </body>
+</html>
